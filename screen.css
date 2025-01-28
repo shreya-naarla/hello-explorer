@@ -1,13 +1,19 @@
-.earth1, .earth2 {
+.moon1 {
+    filter: opacity(0.3);
+    width: 100px;
+}
+
+.moon2 {
+    width: 100px;
+}
+
+.earth1 {
     width: 300px;
 }
 
-.earth2, .moon1 {
-    filter: opacity(0.5);
-}
-
-.moon1, .moon2 {
-    width: 100px;
+.earth2 {
+    width: 300px;
+    filter: opacity(0.3);
 }
 
 body {
@@ -29,3 +35,10 @@ p {
     padding-bottom: 50px;
 }
 
+img {
+    padding-bottom: 50px;
+}
+
+a img:hover {
+    filter: opacity(0.7);
+}
