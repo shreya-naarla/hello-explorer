@@ -1,4 +1,31 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+.earth1, .earth2 {
+    width: 300px;
 }
+
+.earth2, .moon1 {
+    filter: opacity(0.5);
+}
+
+.moon1, .moon2 {
+    width: 100px;
+}
+
+body {
+    background-color: #171B42;
+    text-align: center;
+}
+
+h1, p {
+    color: #E0E0E0;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+p {
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+
